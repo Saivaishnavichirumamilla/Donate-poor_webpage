@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.top {
+  margin-top: 30px;
+  display: grid;
+  gap: 0px;
+}
+.icon {
+  margin-left: 590px;
+}
+.main-heading {
+  margin-top: 0;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(17, 154, 70);
+  padding: 0px;
+}
+.container {
+  display: flex;
+  width: 900px;
+  margin: 10px auto;
+  gap: 20px;
+}
+.container-img img {
+  margin-top: 20px;
+  border-radius: 10px;
+  width: 400px;
+  height: 600px;
+  object-fit: cover;
+  border: 1px solid lightgrey;
+}
+.container1-1 {
+  width: 450px;
+}
+.block1 h2 {
+  color: rgba(0, 0, 0, 0.829);
+  font-weight: bold;
+  margin: 0px;
+}
+.block1 h3 {
+  color: rgba(0, 0, 0, 0.854);
+}
+.block1 p {
+  color: rgb(39, 39, 39);
+  font-size: 14px;
+  margin-top: 0px;
+}
+.block2 {
+  background-color: rgba(164, 207, 247, 0.767);
+  padding: 10px;
+  border: 1px solid rgba(161, 197, 231, 0.767);
+  border-radius: 10px;
+}
+.block4 {
+  text-align: center;
+  font-size: 12px;
+  margin-top: 20px;
+}
+.block4 button {
+  width: 450px;
+  background-color: rgb(17, 154, 70);
+  border-radius: 10px;
+  padding: 16px 40px;
+  border: none;
+  color: white;
+}
+.block4 p {
+  margin-top: 0px;
+  color: grey;
+}
+.block3 {
+  position: relative;
+}
+.block3 h3 {
+  color: rgba(0, 0, 0, 0.829);
+}
+.line {
+  width: 440px;
+  height: 3px;
+  background-color: rgba(182, 182, 182, 0.463);
+}
+.tint {
+  position: absolute;
+  top: 44px;
+  width: 250px;
+  height: 2px;
+  background-color: rgb(17, 154, 70);
+}
+.block3-flex {
+  display: flex;
+  font-size: 14px;
+  color: rgb(55, 54, 54);
+  justify-content: space-between;
+}
